@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Family Page</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Our Family</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>A Place Where Love Grows</h2>
+            <p>Join us in celebrating family, love, and togetherness.</p>
+            <a href="#about" class="btn">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Our Family</h2>
+            <p>Founded on love and laughter, our family has been creating memories together since [Year]. We cherish every moment and believe in supporting each other through thick and thin.</p>
+            <img src="family-photo.jpg" alt="Family Photo">
+        </div>
+    </section>
+
+    <section id="activities" class="activities">
+        <div class="container">
+            <h2>Our Family Activities</h2>
+            <div class="activity">
+                <h3>Weekend Picnics</h3>
+                <p>Join us for fun-filled picnics in the park every Saturday!</p>
+            </div>
+            <div class="activity">
+                <h3>Family Workshops</h3>
+                <p>Explore educational workshops designed for the whole family.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="submit-form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Family Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="./script/index.js"></script>
+</body>
+</html>
